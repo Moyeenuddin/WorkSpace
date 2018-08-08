@@ -1,0 +1,29 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Main abcMain = new Main();
+
+        int a = 5;
+        int b=2;
+        String sign= "a";
+
+        int c= abcMain.calc(a,b,sign);
+        System.out.println("Addition is "+ c);
+
+    }
+
+    public int calc(int numOne, int numTwo, String sign){
+    int result;
+
+        if (sign=="a") {
+            result = numOne+numTwo;
+        }
+
+        else if (sign=="s"){
+            result = numOne-numTwo;
+        }
+
+        else if (sign=="m"){
+            result = numOne*numTwo;
+        }

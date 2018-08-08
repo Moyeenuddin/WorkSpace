@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCHTI</title>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.css">
+    <style>
+        fieldset.scheduler-border {
+            border: 1px groove #ddd !important;
+            padding: 0 1.4em 1.4em 1.4em !important;
+            margin: 0 0 1.5em 0 !important;
+            -webkit-box-shadow: 0px 0px 0px 0px #000;
+            box-shadow: 0px 0px 0px 0px #000;
+        }
+
+        legend.scheduler-border {
+            font-size: 1.2em !important;
+            font-weight: bold !important;
+            text-align: left !important;
+            width: auto;
+            padding: 0 10px;
+            border-bottom: none;
+        }
+
+        .mar-top-20 {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<!--===============================================================================================================================================-->
+<!--End of head-->
+<!--===============================================================================================================================================-->
+
+<body>
+<div class="container">
+
+    <div align="center">
+        <p>
+        <h1>Department of Anaesthesia & Analgesia</h1>
+        MCHT Azimpur, Dhaka,<br>
+        Post Anesthetic care Unit
+        </p>
+    </div>
+
+    <!--===============================================================================================================================================-->
+    <!--End of page Header-->
+    <!--===============================================================================================================================================-->
+    <form>
+        <form>
+            <fieldset class="scheduler-border">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <div class="row mar-top-20">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Name</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Reg.No:</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Age(years):</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mar-top-20">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Weight(kg):</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Height(cm):</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Diagnosis</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mar-top-20">
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Operation Done</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Co-Existing Disease:</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <label class="col-md-4">Pre-Operative Problems:</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--<div class="row mar-top-20">-->
+                        <!--<div class="col-md-6">-->
+                        <!--<div class="row">-->
+                        <!--<label class="col-md-4">Height(cm):</label>-->
+                        <!--<div class="col-md-8">-->
+                        <!--<input class="form-control">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-6">-->
+                        <!--<div class="row">-->
+                        <!--<label class="col-md-4">Diagnosis:</label>-->
+                        <!--<div class="col-md-8">-->
+                        <!--<input class="form-control">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="row mar-top-20">-->
+                        <!--<div class="col-md-6">-->
+                        <!--<div class="row">-->
+                        <!--<label class="col-md-4">Operation Done:</label>-->
+                        <!--<div class="col-md-8">-->
+                        <!--<input class="form-control">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="col-md-6">-->
+                        <!--<div class="row">-->
+                        <!--<label class="col-md-4">Co-Existing Disease</label>-->
+                        <!--<div class="col-md-8">-->
+                        <!--<input class="form-control">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="row mar-top-20">-->
+                        <!--<div class="col-md-12">-->
+                        <!--<div class="row">-->
+                        <!--<label class="col-md-3">Pre-Operative Problems</label>-->
+                        <!--<div class="col-md-9">-->
+                        <!--<input class="form-control">-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash;<div class="col-md-6">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<div class="row">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<label class="col-md-4">Name</label>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<div class="col-md-8">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<input class="form-control">&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--&lt;!&ndash;Name: <input type="text">&ndash;&gt;-->
+                        <!--&lt;!&ndash;<input type="text">&ndash;&gt;-->
+                        <!--&lt;!&ndash;Age: <input type="text">&ndash;&gt;-->
+                        <!--&lt;!&ndash;Yrs.Wt: <input type="text">kg.&ndash;&gt;-->
+                        <!--&lt;!&ndash;Ht: <input type="text">cm.&ndash;&gt;-->
+                        <!--&lt;!&ndash;Diagnosis: <input type="text">&ndash;&gt;-->
+                        <!--&lt;!&ndash;Pre-Operative Problems: <input type="text">&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            </fieldset>
+        </form>
+    </form>
+    <!--===============================================================================================================================================-->
+    <!--End of first box-->
+    <!--===============================================================================================================================================-->
+
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-12">
+                <label class="col-md-2 control-label">Anaesthesia:</label>
+                <label class="checkbox-inline" for="checkboxes-0">
+                    <input type="checkbox" name="checkboxes" id="checkboxes" value="1">
+                    Genarel Anaesthesia
+                </label>
+                <label class="col-md-2 checkbox-inline" for="checkboxes-1">
+                    <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                    ETT.
+                </label>
+                <label class="col-md-2 checkbox-inline" for="checkboxes-2">
+                    <input type="checkbox" name="checkboxes" id="checkboxes-2" value="3">
+                    L.MA.
+                </label>
+                <label class="col-md-2 checkbox-inline" for="checkboxes-3">
+                    <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+                    FM
+                </label>
+                <label class="checkbox-inline" for="checkboxes-4">
+                    <input type="checkbox" name="checkboxes" id="checkboxes-4" value="5">
+                    Ketamine
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group mar-top-20">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <label class="col-md-12">Epidural/Spinal/CSE: Level of analgesia-Cer</label>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <label class="col-md-4">Tho.</label>
+                        <div class="col-md-8">
+                            <input class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <label class="col-md-4">Lumb:</label>
+                        <div class="col-md-8">
+                            <input class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-12 mar-top-20">
+
+
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="row">
+                    <label class="col-md-4">Drugs used in OT:</label>
+                    <div class="col-md-8">
+                        <div class="btn-group">
+                            <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1"
+                                   style="margin: 12px 5px 0px 0px;"></label>
+                            <input class="form-control" style=" ">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <label class="col-md-6">% Bupivacine</label>
+                    <div class="col-md-6">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <label class="col-md-4">ml. </label>
+                    <div class="col-md-8">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <label class="col-md-6">% Lidocine:</label>
+                    <div class="col-md-6">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="row">
+                    <label class="col-md-12">ml.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="row">
+                    <label class="col-md-5">................mg:</label>
+                    <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1"></label>
+                    <div class="col-md-5">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <label class="col-md-6">Oxytonic</label>
+                    <div class="col-md-6">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <label class="col-md-4">U.Metoclo/Prochlo </label>
+                    <div class="col-md-8">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <label class="col-md-6">mg. Ephedrine</label>
+                    <div class="col-md-6">
+                        <input class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <div class="row">
+                    <label class="col-md-12">ml.</label>
+                </div>
+            </div>
+
+            <div class="row mar-top-20">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <label class="col-md-6">Pethidine</label>
+                        <div class="col-md-6">
+                            <input class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <label class="col-md-4">mg.</label>
+                        <div class="col-md-8">
+                            <input class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <label class="col-md-6">mg.</label>
+                        <div class="col-md-6">
+                            <input class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="row">
+                        <label class="col-md-12">mg.</label>
+                    </div>
+                </div>
+
+
+                <div class="row mar-top-20">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <label class="col-md-6">At the end of operation:</label>
+                            <label class="col-md-2">BP</label>
+                            <div class="col-md-4">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <label class="col-md-6">mm of Hg. Rules</label>
+                            <div class="col-md-6">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="row">
+                            <label class="col-md-12">mm.</label>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!--===============================================================================================================================================-->
+    <!--Start of first Table part-->
+    <!--===============================================================================================================================================-->
+
+
+
+<div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-9">
+<table>
+    <tr><td>ee</td><td>ee</td><td>ee</td></tr>
+    <tr><td>ee</td><td>ee</td><td>ee</td></tr>
+</table>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="row">
+                    <label class="col-md-4 control-label" for="checkboxes">Inline Checkboxes</label>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline" for="checkboxes-3">
+                            <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+                        </label>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="checkbox-inline" for="checkboxes-3">
+                            <input type="checkbox" name="checkboxes" id="checkboxes-3" value="4">
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-md-2">Name</label>
+                    <div class="col-md-4">
+                        <input class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="row mar-top-20">
+                    <div class="col-md-6">
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Reg.No:</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mar-top-20">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mar-top-20">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mar-top-20">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <label class="col-md-4">Name</label>
+                            <div class="col-md-8">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+    </form>
+</div>
+</body>
+</html>

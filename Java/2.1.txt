@@ -1,0 +1,19 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Main abcMain = new Main();
+
+        int a = 5;
+        int b=2;
+
+        int c= abcMain.addNumber(a,b);
+        System.out.println("Addition is "+ c);
+
+    }
+
+    public int addNumber(int numOne, int numTwo){
+        int result = numOne+numTwo;
+        return result;
+    }
+}
